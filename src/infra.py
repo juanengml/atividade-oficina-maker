@@ -77,14 +77,7 @@ class Model(object):
         self.infra.orquestrador_pipeline()
         
     def destroy(self):
-        # passar um for para derrubar os containers 
-        # container.remove(force=True)
+        #container.remove(force=True)
         return self.infra.list_containers()
  
 
-def main():
-    model = Model()
-    model.apply()
-    
-if __name__ == "__main__":
-    main()
