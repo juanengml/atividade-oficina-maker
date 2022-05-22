@@ -1,1 +1,4 @@
-# atividade-oficina-maker
+# Atividade oficina maker PUCPR
+
+Alunos: Rossi, Andrea e Juan
+
